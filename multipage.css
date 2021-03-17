@@ -1,0 +1,195 @@
+
+h1, h2, h3 {
+    color: rgb(102, 91, 91);
+}
+
+h2, h3 {
+    text-align: justify;
+    text-align: center;
+    margin: 10% 0;
+}
+
+header {
+    background-color: honeydew;
+    border: solid 3px;
+    border-radius: 0px 60px 0px 60px;
+    box-shadow: 12px 12px 12px grey;
+    padding-bottom: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 3px 3px 3px grey;
+}
+
+div {
+    font-size : 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(114, 103, 103);
+    }
+
+
+h2 {
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 60px;
+    background-color: #c0c0c061;
+    
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10%;
+}
+
+li {
+    font-size : 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(114, 103, 103);
+    text-align: left;
+}
+
+
+.italic {
+    font-style: italic;
+    font-size: 1em;
+}
+
+body {
+    background-color: #c0c0c061;
+}
+
+.photo {
+    width : 160px;
+    height: 190px;
+    display: block;
+    border: solid 2px black;
+    border-radius: 25px 0px 25px 0px;
+    margin: auto;
+    margin-top: 6%;
+
+}
+
+h2, .photo {
+    box-shadow: 8px 8px 8px grey;  
+}
+
+/* Navigation*/
+
+
+/* Disposition de la page*/
+
+body {
+    margin: 5% 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+       
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+    height: 100vh;
+    overflow: auto;
+    scrollbar-width: none; /* Firefox */
+}
+
+        ::-webkit-scrollbar { 
+             display: none; /* Chrome Safari */
+        }
+
+.experience {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+
+/* Style du aside*/
+
+
+
+aside {
+    background-color: honeydew;
+    width: 30%;
+    position: sticky;
+    padding-left: 5px;
+    border-radius: 25px;
+}
+
+
+
+.info {
+    font-size : 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(114, 103, 103);
+    margin: 8%;
+}
+
+.info:hover {
+    font-size: 2.5em;
+}
+
+.interet, .xp {
+    list-style-type: none;
+}
+
+ul.interet {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+input {
+    background-color: #c0c0c061;
+    border: none;
+    border-radius: 40%;
+    color: rgb(102, 91, 91);
+    padding: 15px 32px;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  input:hover {
+    background-color: rgb(95, 120, 231);
+    
+  }
+        input:focus {
+            outline:  none;
+        }
+
+  /* style de expérience*/
+
+  .xp {
+      border-top: #adb0df solid;
+      border-left: #adb0df solid;
+      flex-wrap: wrap;
+      padding: 15px 7px;
+      
+  }
+
+  .enseignement, .restauration {
+      margin-top: 0;
+      margin-left: 8px;
+      width: 45%;
+      line-height: 25px;
+      
+  }
+
