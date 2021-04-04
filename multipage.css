@@ -1,0 +1,245 @@
+body {
+   background-color: #96FFCB; 
+}
+
+h1.grey {
+    color: #9796FF;
+}
+
+h2, h2.grey {
+    background-color: #9796FF;
+    color : #FEFF63;
+    font-size: 2em;
+    border-radius: 60px;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 3px 3px 3px #9796FF;
+}
+
+
+
+h3 {
+    color: #9796FF;
+    text-decoration: underline;
+    font-size: 1.5em;
+    margin: 10%;
+}
+
+h2, h3 {
+    text-align: justify;
+    text-align: center;
+    margin: 10% 0;
+}
+
+header {
+    background-color: #FEFF96;
+    border: solid 3px #FF96CA;
+    border-radius: 0px 60px 0px 60px;
+    box-shadow: 12px 12px 12px #FF96CA;
+    padding-bottom: 35px;
+    text-align: center;
+    
+}
+
+
+
+div, li, .info {
+    font-size : 1.2em;
+   
+    }
+
+li {
+    text-align: left;
+}
+
+
+.italic {
+    font-style: italic;
+    font-size: 1em;
+}
+
+
+
+.photo {
+    width : 160px;
+    height: 190px;
+    display: block;
+    border: solid 2px #96FFCB;
+    border-radius: 25px 0px 25px 0px;
+    margin: auto;
+    margin-top: 6%;
+
+}
+
+h2, .photo {
+    box-shadow: 8px 8px 8px #FF96CA;  
+}
+
+.interet, .xp {
+    list-style-type: none;
+}
+
+.grey, input {
+    color: rgb(102, 91, 91);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Navigation*/
+
+
+/* Disposition de la page*/
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+       
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+    height: 100vh;
+    overflow: auto;
+    scrollbar-width: none; /* Firefox */
+}
+
+        ::-webkit-scrollbar { 
+             display: none; /* Chrome Safari */
+        }
+
+.experience, .interet1 {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+
+/* Style du aside*/
+
+
+
+aside {
+    background-color: #FEFF96;
+    box-shadow: 3px 3px 3px #FF96CA;
+    width: 30%;
+    position: sticky;
+    padding-left: 5px;
+    border-radius: 25px;
+}
+
+
+
+.info {
+    margin: 8%;
+    transform: scale(1);
+    transform-origin: 0%;
+    transition: all 400ms ease-in;
+    
+}
+
+.info:hover {
+    transform: scale(1.3);
+    
+    color: #6463FF;
+    
+}
+
+
+input {
+    border: none;
+    border-radius: 40%;
+    background-image:-webkit-linear-gradient(135deg, #9796FF 0%, #96FFCB 30%, #FEFF96 90%);
+    background-image: linear-gradient(to bottom-right, #9796FF 0%, #96FFCB 30%, #FEFF96 90%);
+    padding: 15px 32px;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    text-decoration: none;
+    font-size: 13px;
+    transform: scale(1);
+    transition: transform 400ms ease-in-out, border 400ms;
+    transition-delay: 0, 150ms;
+        
+  }
+
+  input:hover {
+    background-image:  -webkit-linear-gradient(top, #9796FF 0%,#FF96CA 60%);
+    background-image: linear-gradient(to bottom, #9796FF 0%, #FF96CA 60%);
+    transform: scale(1.3);
+    border: 3px solid #63FFB2;
+    color: #63FFB2;
+    
+  }
+        input:focus {
+            outline:  none;
+        }
+
+#blog {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+a.info {
+    word-wrap: break-word;
+}
+
+  /* style de expérience*/
+
+  .xp {
+      border-top: #FF96CA solid;
+      border-left: #FF96CA solid;
+      flex-wrap: wrap;
+      padding: 15px 7px;
+      
+  }
+
+  .enseignement, .restauration {
+      margin-top: 0;
+      margin-left: 8px;
+      width: 45%;
+      line-height: 25px;
+      
+  }
+
+  /*Style du interet*/
+
+  
+
+  .interet
+  {
+      display: inline-block;
+      background-image:-webkit-linear-gradient(45deg, #9796FF 0%, #96FFCB 25%, #FEFF96 95%);
+      background-image: linear-gradient( to right-top, #9796FF 0%, #96FFCB 25%, #FEFF96 95%);
+   
+      margin: 30px;
+               
+      width: 180px;
+      height: 150px;
+      -moz-border-radius : 50%;
+      -webkit-border-radius : 50%;
+      border-radius : 50%;
+   
+      text-align: center;
+      line-height: 5em;
+      font-size: 2em;
+
+      
+  }
+
+
+  /* Style footer*/
+
+  
+
+  
